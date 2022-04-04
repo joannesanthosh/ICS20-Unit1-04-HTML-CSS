@@ -1,3 +1,21 @@
-.wow {
-  width: 100px;
+/*Created by: Joanne Santhosh
+* Created on: Feb 2022
+*This CSS file defines the style for index.html ICS20-Unit1-04-HTML-CSS*/
+
+
+body {
+  background-color:teal;
+}
+
+
+h1 {
+  background-color: rgb(120, 8, 70);
+  color: hsl(147, 50%, 47%);
+  padding: 40px;
+  text-align: center;
+}
+
+
+p {
+  background-color:#ff00ff;
 }
