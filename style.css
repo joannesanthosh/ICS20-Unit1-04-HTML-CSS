@@ -4,12 +4,13 @@
 
 body {
   background-color: teal;
-  } 
+}
+
 
 h1 {
   background-color: rgb(120, 8, 70);
-  color: hsl(147deg, 50%, 47%);
-  }
+  color: hsl(147, 50%, 47%);
+}
 
 p {
   background-color: #f0f;
