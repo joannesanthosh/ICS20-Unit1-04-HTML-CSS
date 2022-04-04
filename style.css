@@ -3,9 +3,8 @@
 *This CSS file defines the style for index.html ICS20-Unit1-04-HTML-CSS */
 
 body {
-  background-color: teal;
+  background-color: rgb(0, 128, 128);
 }
-
 
 h1 {
   background-color: rgb(120, 8, 70);
@@ -13,5 +12,5 @@ h1 {
 }
 
 p {
-  background-color: #f0f;
+  background-color: rgb(255, 0, 255);
 }
