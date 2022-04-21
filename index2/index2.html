@@ -11,35 +11,56 @@
   <body>
     <h1>Style is important</h1>
     <p>Proper HTML style is important</p>
-    <img src="./HTML-style-guide.jpeg" alt="style">
-    <!-- List items with avatar and action -->
-    <style>
-    .demo-list-action {
+    <!-- Simple list -->
+<style>
+.demo-list-item {
   width: 300px;
 }
 </style>
 
-<div class="demo-list-action mdl-list">
-  <div class="mdl-list__item">
+<ul class="demo-list-item mdl-list">
+  <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
-      <span>English</span>
+      English
     </span>
-    <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
-  </div>
-  <div class="mdl-list__item">
+  </li>
+  <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
-      <span>Science</span>
+      Science
     </span>
-    <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
-  </div>
-  <div class="mdl-list__item">
+  </li>
+  <li class="mdl-list__item">
     <span class="mdl-list__item-primary-content">
-      <span>Math</span>
+      Math
     </span>
-    <span class="mdl-list__item-secondary-content">
-      <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
-  </span>
-  </div>
-</div>
+  </li>
+</ul>
+    <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Material</th>
+      <th>Quantity</th>
+      <th>Unit price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
+      <td>25</td>
+      <td>$2.90</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
+      <td>50</td>
+      <td>$1.25</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
+      <td>10</td>
+      <td>$2.35</td>
+    </tr>
+  </tbody>
+</table>
+
   </body>
 </html>

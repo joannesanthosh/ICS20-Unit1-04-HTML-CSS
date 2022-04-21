@@ -1,0 +1,17 @@
+/* Created by: Joanne Santhosh
+* Created on: Feb 2022
+*This CSS file defines the style for index.html ICS20-Unit1-04-HTML-CSS
+*/
+
+body {
+  background-color: #ad84d7;
+}
+
+h1 {
+  background-color: #0b6526;
+  color: #d2c85b;
+}
+
+p {
+  background-color: #4400ff;
+}
